@@ -289,7 +289,6 @@ a {
 
 /* Header */
 .header {
-  margin-top: 0px;
   height: 100vh;
   position: relative;
 }
@@ -300,12 +299,12 @@ a {
 }
 .header .col-2 {
   width: 100%;
-  padding-top: 75px;
+  padding-top: 30px;
 }
 .header .col-2 img {
   max-width: 80%;
   border-radius: 5%;
-  width: 70%;
+  width: 100%;
 }
 
 .hero-img {
