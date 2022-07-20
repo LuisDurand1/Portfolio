@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luis Durand</title>
+
+    <!-- Font Awesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./img/Developer-icon.ico">
+
+  </head>
+  <body>
+    <div id="home"></div>
+    <nav class="navbar" >
+      <div class="brand" >
+<!--         <img src="./img/logo.png" alt="" class="logo" />
+ -->  
+ <i class="fa fa-times" id="cross" aria-hidden="true"></i>
+
+ <a href="#home" > <p class="highlight">Luis Durand</p></a>
+      </div>
+      
+      <div class="nav-list" >
+        <ul>
+          <li class="buttons"><a href="#aboutme">Sobre mí</a></li>
+          <li class="buttons"><a href="#proyects">Proyectos </a></li>
+          <li class="buttons"><a href="#skills">Skills</a></li>
+          <li class="buttons"><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <ul>
+          <li class="media-icons"><a href="https://github.com/LuisDurand1" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
+          <li  class="media-icons"><a href="https://www.linkedin.com/in/luis-durand1/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></li></a>
+          <li  class="media-icons"><a href="mailto:luisrodrigo2213@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></li></a>
+
+          
+        </ul>
+      </div>
+    </nav>
+    <div class="toggle-btn">
+      <i class="fa fa-bars"></i>
+    </div>
+
+    <!-- Header -->
+    <header class="header container">
+      <div class="circle"></div>
+      <div class="row hero">
+        <div class="col col-1">
+          <h2>
+            Hola, soy </h2><h1>Luis Durand</h1> 
+           <h2>Desarrollador Full Stack.</h2>
+          <a href="./img/LUIS_DURAND_CV.pdf" download="LUIS_DURAND_CV" target="_blank" rel="noreferrer" class="ctn">Descargar CV</a>
+        </div>
+        <div class="col col-2">
+          <div class="hero-img">
+            <img src="./img/yo3.jpg" class="img-me" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <section class="portfolio container" id="aboutme">
+      <div class="title">
+        <div class="ctn-title">
+          <h1 class="section-title">Sobre mí</h1>
+        </div>
+
+        
+        </div>
+        <div>
+        <div class="container-desc">
+          <div class="container-img">
+              <img  class="gif-dev" src="dev.gif" alt="dev"></div>
+          <div class="container-aboutme">
+            <div class="container-location"> 
+              <img src="./svg/location.svg" alt="location">  <h2 class="location">Buenos Aires, Argentina</h2>
+            </div>
+            
+            <p class="description">Soy Luis Durand, un desarrollador Full-stack argentino de 21 años. Me apasiona la tecnología, la innovación y emprender. Me gusta llevar al código las ideas que tengo, en ese camino me encuentro con obstáculos pero mi curiosidad y mis ganas de aprender son más grandes. Me gustaría incorporarme a una empresa en la cual pueda tener desafíos, trabajar en equipo y seguir creciendo como desarrollador.</p>
+        
+          </div>
+               </div>
+              </div>
+          
+    </section>
+
+
+
+
+    <!-- Portfolio -->
+    <section class="portfolio container" id="proyects">
+      <div class="title">
+        <h3>PORTFOLIO</h3>
+        <div class="ctn-title">
+          <h1 class="section-title">Proyectos</h1>
+        </div>
+      </div>
+      <div class="grid-wrapper">
+
+        <div class="project-container">
+          <h3 class="title-project">Cruce App</h3>
+          <p>E-commerce - Aplicación web que permita la reserva de turnos para empresas con sucursales físicas -</p>
+          <ul class="list">
+            <li class="items">Colaboré en el Backend con la creación y funcionalidad de rutas, tablas, configuración de JWT.
+              En el Frontend con Funcionalidad de Componentes y Estilos.</li>
+            <li class="items">Tech Stack: Mongoose | Express.Js | React.Js | Node.Js | JWT | Next.js | Semantic UI.</li>
+            <li class="items">Herramienta de seguimiento: TRELLO.</li>
+            <li class="items">Metodología Ágil: SCRUM.</li>
+        
+          </ul>
+          <div class="repository">
+            <a href="https://github.com/LuisDurand1/cruce" class="link-repo" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-github"></i>
+        </a>
+        </div>
+        </div>  
+
+        <div class="project-container">
+          <h3 class="title-project">Hello-World!</h3>
+          <p>Colaboré en el Frontend configuración de Redux, Funcionalidad, Componentes y Estilos.<p>
+          <ul>
+            <li class="items">Tech Stack: PostgreSQL | Express.Js | React.Js | Node.Js | Passport.Js. | Redux | React Bootstrap.</li>
+            <li class="items">Herramienta de seguimiento: TRELLO.</li>
+            <li class="items">Metodología Ágil: SCRUM.</li>
+        
+          </ul>
+          <div class="repository">
+            <a href="https://github.com/LuisDurand1/hello-world" class="link-repo" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-github"></i> 
+        </a>
+        </div>
+        </div> 
+
+<div class="project-container">
+  <h3 class="title-project">Omdb</h3>
+  <p>Página web de películas utilizando la API de OMDB - Proyecto individual.</p>
+  <ul class="list">
+    <li class="items">Tech Stack: PostgreSQL | Express.Js | React.Js | Node.Js | Passport.Js | Redux | React Bootstrap.</li>
+    <li class="items">Herramienta de seguimiento: TRELLO.</li>
+  </ul>
+  <div class="repository">
+    <a href="https://github.com/LuisDurand1/OMDB" class="link-repo" target="_blank" rel="noopener noreferrer">
+  <i class="fa fa-github"></i>  
+</a>
+</div>
+</div>   
+ 
+    
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills container" id="skills">
+      <div class="title">
+        <h3>MY SKILLS</h3>
+        <h1 class="section-title">My Expertise</h1>
+      </div>
+      <div class="skill">
+
+        <a class="skills-link" href="https://es.reactjs.org/" target="_blank" rel="noopener noreferrer">
+        <div class="skill-container">
+          <div>
+          <img src="./svg/react.svg" alt="" />
+        </div>
+          <h5 class="skill-title">React</h5>
+        </div>
+      </a>
+
+      <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+        <div class="skill-container">
+          <div>
+          <img src="./svg/javascript.svg" alt="" />
+        </div>
+          <h5 class="skill-title">Javascript</h5>
+        </div>
+      </a>
+
+      <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" target="_blank" rel="noopener noreferrer">
+        <div class="skill-container">
+          <div>
+          <img src="./svg/html5.svg" alt="" />
+        </div>
+         <h5 class="skill-title">HTML 5</h5>
+        </div>
+      </a>
+
+      <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+        <div class="skill-container">
+          <div>
+          <img src="./svg/css.svg" alt="" />
+        </div>
+          <h5 class="skill-title">Css</h5>
+        </div>
+      </a>
+
+      <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
+        <div class="skill-container">
+          <div>
+          <img src="./svg/sass.svg" alt="" />
+        </div>
+          <h5 class="skill-title">Sass</h5>
+        </div>
+      </a>
+        
+      <a href="https://es.redux.js.org/" target="_blank" rel="noopener noreferrer">
+        <div class="skill-container">
+          <div>
+          <img src="./svg/redux.svg" alt="" />
+        </div>
+          <h5 class="skill-title">Redux</h5>
+        </div>
+      </a>
+            
+        </div>
+        
+        <div class="skill">
+
+          <a href="https://nodejs.org/es/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-container">
+            <div>
+            <img src="./svg/nodejs.svg" alt="" />
+          </div>
+            <h5 class="skill-title">Node</h5>
+          </div>
+        </a>
+
+        
+         <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-container">
+            <div>
+            <img src="./svg/mongo.svg" alt="" />
+          </div>
+            <h5 class="skill-title">MongoDB</h5>
+          </div>
+        </a>
+
+
+        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-container">
+            <div>
+            <img src="./svg/pgsql.svg" alt="" />
+          </div>     
+            <h5 class="skill-title">PosgreSQL</h5>
+          </div>
+        </a>
+
+
+         <a href="https://jwt.io/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-container" >
+            <div>
+            <img src="./svg/jwt.svg" alt="" />
+          </div>
+            <h5 class="skill-title">JWT</h5>
+          </div>
+        </a>
+
+
+        <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-container">
+            <div>
+            <img src="./svg/bootstrap.svg" alt="" />
+          </div>
+            <h5 class="skill-title">Bootstrap</h5>
+          </div>
+        </a>
+
+         <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-container">
+            <div>
+            <img src="./svg/git.svg" alt="" />
+          </div>  
+            <h5 class="skill-title">Git</h5>
+          </div>
+        </a>
+
+
+        <a href="https://expressjs.com/es/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-container">
+            <div>
+            <img src="./svg/express.svg" alt="" />
+          </div>         
+           <h5 class="skill-title">Express</h5>
+          </div>
+        </a>
+      
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="section-title">Contactame</h1>
+        <a href="mailto:luisrodrigo2213@gmail.com" >
+        <h3><i class="fa fa-envelope-o"></i>luisrodrigo2213@gmail.com
+        </h3></a>
+        <div class="icons-contact">
+           <a class="links-contact" href="https://github.com/LuisDurand1" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+           <a class="links-contact" href="https://www.linkedin.com/in/luis-durand1/" target="_blank" rel="noopener noreferrer"> <i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <a href="#home" class="btn-scrolltop btn-scrolltop-on" id="btn_scrolltop">
+      <img src="./svg/arrow.svg" alt="">
+    </a>
+    <script>
+      let togglebtn = document.querySelector(".toggle-btn");
+      let navbar = document.querySelector(".navbar");
+      let button = document.querySelector(".nav-list")
+      let cross = document.querySelector(".fa-times")
+      let arrow = document.getElementById("btn_scrolltop")
+
+      togglebtn.addEventListener("click", () => {
+        navbar.classList.toggle("mobile-nav");
+
+
+      });
+
+      button.addEventListener("click", () =>{
+        navbar.classList.remove("mobile-nav")
+
+      })
+     
+      cross.addEventListener("click", () =>{
+        navbar.classList.remove("mobile-nav")
+
+      })
+
+      /* arrow.addEventListener('click', () =>{
+       window.scrollTo({
+         top:1000,
+         behavior:"smooth"
+       })
+      
+      }) */
+
+
+      if(window.scrollY===0){
+        arrow.classList.remove("btn-scrolltop-on")
+      }
+
+      window.onscroll = () => {
+
+
+        if(window.scrollY < 300 || window.scrollY=== 0){
+          arrow.classList.remove("btn-scrolltop-on")
+          console.log(window.scrollY,"avedfsasdr")
+        }else{
+        arrow.classList.add("btn-scrolltop-on")
+        console.log(window.scrollY,"aver")
+        }
+      }
+
+
+
+    </script>
+  </body>
+</html>
