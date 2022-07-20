@@ -14,6 +14,16 @@ html {
   background-color: rgb(35, 42, 54);
   scroll-behavior: smooth !important;
 }
+
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+
+    background:rgba(12, 86, 255, 1) ;
+}
+
 :root {
   --h1: #1e1964;
   --blue: #34a1cd;
